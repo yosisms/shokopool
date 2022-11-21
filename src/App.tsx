@@ -49,7 +49,7 @@ const App: React.FC<IAppProps> = () => {
                     )}
                 </div>
                 <div className={'buttons'}>
-                    <Button color={'success'} onClick={onNext} disabled={list?.length === 0}>Next</Button>
+                    <Button color={'success'} onClick={onNext} disabled={list?.length === 0 && !showNumber}>Next</Button>
                     <Button color={'danger'} onClick={onReset} disabled={list?.length === 15}>Reset</Button>
                 </div>
             </main>
