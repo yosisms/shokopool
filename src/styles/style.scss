@@ -7,6 +7,12 @@
     height: 100vh;
 }
 
+.site {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
 .d-button {
     height: 200px;
     width: 200px;

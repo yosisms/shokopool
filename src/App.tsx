@@ -54,7 +54,7 @@ const App: React.FC<IAppProps> = () => {
     console.log({ list, blackList, showNumber, number, gameState })
 
     return (
-        <div className={'d-flex flex-column h-100 bg-secondary'}>
+        <div className={'site bg-secondary'}>
             <Nav/>
             <main className={'main'} style={{flex: 1}}>
                 {/*<div className={'wrapper'}>*/}
