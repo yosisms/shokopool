@@ -33,4 +33,24 @@
 .buttons {
     display: flex;
     gap: 30px;
+    transition: all 250ms;
 }
+
+.buttons.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.buttons:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+
+.footer {
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import './ball.scss';

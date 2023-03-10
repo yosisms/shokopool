@@ -1,0 +1,71 @@
+.ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    transform: translate(-10px, -10px);
+    border-radius: 50%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+.ball-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    background: white;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ball-white {
+    background: white;
+}
+.ball-red {
+    background: red;
+}
+.ball-yellow-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, #E9C46A 10%, #E9C46A 90%, #FFFFFF 90%);
+}
+.ball-green-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, #2A9D8F 10%, #2A9D8F 90%, #FFFFFF 90%);
+}
+.ball-brown-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, #7F4F24 10%, #7F4F24 90%, #FFFFFF 90%);
+}
+.ball-black {
+    background: black;
+}
+.ball-purple-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, purple 10%, purple 90%, #FFFFFF 90%);
+}
+.ball-blue-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, #0096C7 10%, #0096C7 90%, #FFFFFF 90%);
+}
+.ball-orange {
+    background: #F4A261;
+}
+.ball-green {
+    background: #2A9D8F;
+}
+.ball-blue {
+    background: #0096C7;
+}
+.ball-orange-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, #F4A261 10%, #F4A261 90%, #FFFFFF 90%);
+}
+.ball-yellow {
+    background: #E9C46A;
+}
+.ball-purple {
+    background: purple;
+}
+.ball-red-striped {
+    background: linear-gradient(0deg, #FFFFFF 10%, red 10%, red 90%, #FFFFFF 90%);
+}
+.ball-brown {
+    background: #7F4F24;
+}
