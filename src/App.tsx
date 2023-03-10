@@ -89,7 +89,7 @@ const App: React.FC<IAppProps> = () => {
                 </div>
             </main>
             <footer className={'footer'}>
-                <div className={'buttons'}>
+                <div className={`buttons ${blackList?.length === 0 ? 'hidden' : ''}`}>
                     <Button color={'danger'} onClick={onReset} disabled={list?.length === 15}>Reset</Button>
                 </div>
             </footer>
