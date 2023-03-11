@@ -88,13 +88,14 @@ const App: React.FC<IAppProps> = () => {
                             disabled={list?.length === 0 && !showNumber}>Next</Button>
                 </div>
             </main>
-            <footer className={'footer'}>
+        </div>
+    )
+};
+
+const footer = <footer className={'footer'}>
                 <div className={`buttons ${blackList?.length === 0 ? 'hidden' : ''}`}>
                     <Button color={'danger'} onClick={onReset} disabled={list?.length === 15}>Reset</Button>
                 </div>
             </footer>
-        </div>
-    )
-};
 
 export default App;
