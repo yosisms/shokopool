@@ -92,10 +92,10 @@ const App: React.FC<IAppProps> = () => {
     )
 };
 
-const footer = <footer className={'footer'}>
-                <div className={`buttons ${blackList?.length === 0 ? 'hidden' : ''}`}>
-                    <Button color={'danger'} onClick={onReset} disabled={list?.length === 15}>Reset</Button>
-                </div>
-            </footer>
+// const footer = <footer className={'footer'}>
+               // <div className={`buttons ${blackList?.length === 0 ? 'hidden' : ''}`}>
+                //    <Button color={'danger'} onClick={onReset} disabled={list?.length === 15}>Reset</Button>
+              //  </div>
+            // </footer>
 
 export default App;
