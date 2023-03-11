@@ -23,13 +23,13 @@ export default [
     {
         id: 2,
         number: 2,
-        color: 'red',
+        color: 'blue',
         isStriped: false,
     },
     {
         id: 3,
         number: 3,
-        color: 'blue',
+        color: 'red',
         isStriped: false,
     },
     {
