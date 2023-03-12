@@ -1,3 +1,14 @@
+:root {
+    --color-yellow: rgb(234,162,41);
+    --color-red: rgb(215, 47, 44);
+    --color-blue: rgb(0, 69, 203);
+    --color-purple: rgb(67, 37, 117);
+    --color-orange: rgb(251, 87, 34);
+    --color-green: rgb(11, 94, 73);
+    --color-brown: rgb(168, 48, 58);
+}
+
+
 .ball {
     display: flex;
     justify-content: center;
@@ -25,47 +36,47 @@
     background: white;
 }
 .ball-red {
-    background: red;
+    background: var(--color-red);
 }
 .ball-yellow-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, #E9C46A 10%, #E9C46A 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-yellow) 10%, var(--color-yellow) 90%, #FFFFFF 90%);
 }
 .ball-green-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, #2A9D8F 10%, #2A9D8F 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-green) 10%, var(--color-green) 90%, #FFFFFF 90%);
 }
 .ball-brown-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, #7F4F24 10%, #7F4F24 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-brown) 10%, var(--color-brown) 90%, #FFFFFF 90%);
 }
 .ball-black {
     background: black;
 }
 .ball-purple-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, purple 10%, purple 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-purple) 10%, var(--color-purple) 90%, #FFFFFF 90%);
 }
 .ball-blue-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, #0096C7 10%, #0096C7 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-blue) 10%, var(--color-blue) 90%, #FFFFFF 90%);
 }
 .ball-orange {
-    background: #F4A261;
+    background: var(--color-orange);
 }
 .ball-green {
-    background: #2A9D8F;
+    background: var(--color-green);
 }
 .ball-blue {
-    background: #0096C7;
+    background: var(--color-blue);
 }
 .ball-orange-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, #F4A261 10%, #F4A261 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-orange) 10%, var(--color-orange) 90%, #FFFFFF 90%);
 }
 .ball-yellow {
-    background: #E9C46A;
+    background: var(--color-yellow);
 }
 .ball-purple {
-    background: purple;
+    background: var(--color-purple);
 }
 .ball-red-striped {
-    background: linear-gradient(0deg, #FFFFFF 10%, red 10%, red 90%, #FFFFFF 90%);
+    background: linear-gradient(0deg, #FFFFFF 10%, var(--color-red) 10%, var(--color-red) 90%, #FFFFFF 90%);
 }
 .ball-brown {
-    background: #7F4F24;
+    background: var(--color-brown);
 }
